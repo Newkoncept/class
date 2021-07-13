@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+  </head>
+  <body>
+    <h2>Data Type</h2>
+    <p id="sample">Variable Sample</p>
+    <p id="sample1">Variable Sample</p>
+    <p id="sample2">Variable Sample</p>
+    <h2>Exponential Operator</h2>
+    <p id="sample3">Variable Sample</p>
+    <p id="sample4">Variable Sample</p>
+    <p id="sample5">Variable Sample</p>
+    <h2>Modulus Sample</h2>
+    <p id="sample6">Variable Sample</p>
+    <p id="sample7">Variable Sample</p>
+    <h2>Increment Operator</h2>
+    <p id="sample8">Variable Sample</p>
+
+    <script type="text/javascript">
+      // Number Data Type
+      var num1 = 20;
+      var num2 = 22;
+      var ans = num1 + num2;
+
+      // String Data Type
+      var fName = "Gboyega";
+      var sName = "Abioye";
+
+      //   Multiple variable declaration
+      var fruit = "Mango",
+        food = "Beans",
+        car = "Camry";
+
+      // Exponential Opertors
+      var number1 = 2 ** 8;
+      var number2 = 3 ** 2;
+      var number3 = 4 ** 3;
+
+      //   Modulus Operator
+      var y = 2;
+      var z = 7;
+      var yzans = y % z;
+      var zyans = z % y;
+
+      //   Increment Operator
+      var c = 7;
+      c++;
+      var d = c;
+
+      //   HTML MANIPULATION
+      document.getElementById("sample").innerHTML = "20 + 22 is " + ans;
+      document.getElementById("sample1").innerHTML = "My name is " + fName + " " + sName;
+      document.getElementById("sample2").innerHTML =
+        "My best fruit is " + fruit + ", the best food is " + food + " and I love this type of car " + car;
+
+      document.getElementById("sample3").innerHTML = "2 raise to power 8 is " + number1;
+      document.getElementById("sample4").innerHTML = "3 raise to power 2 is " + number2;
+      document.getElementById("sample5").innerHTML = "4 raise to power 3 is " + number3;
+
+      document.getElementById("sample6").innerHTML = "2 mod 7 is " + yzans;
+      document.getElementById("sample7").innerHTML = "7 mod 2 is " + zyans;
+
+      document.getElementById("sample8").innerHTML = "7 increase ++ is " + d;
+    </script>
+  </body>
+</html>
